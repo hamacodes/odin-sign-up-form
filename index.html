@@ -7,20 +7,28 @@
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <div class="left-bg">
+  <div class="left-container">
     <img src="assests/parking-background.jpg" alt="A multi-story parking garage">
     <p>Photo by <a href="https://unsplash.com/@angelicateranp">Angelica Teran</a> 
       on <a href="https://unsplash.com/photos/a-tall-building-with-lots-of-windows-next-to-a-street-Bk9hpaXHK4o">Unsplash</a></p>
   </div>
-  <form>
-    <h2>Sign Up</h2>
-    <label for="name">Name</label>
-    <input type="text" id="name" name="name" placeholder="Enter your name">
-    <label for="email">Email</label>
-    <input type="email" id="email" name="email" placeholder="Enter your email">
-    <label for="password">Password</label>
-    <input type="password" id="password" name="password" placeholder="Enter your password">
-    <button type="submit">Sign Up</button>
-  </form>
+  <div class="right-container">
+    <form>
+      <h1>Sign Up</h1>
+      <div class="input-container">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" required>
+      </div>
+      <div class="input-container">
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required>
+      </div>
+      <div class="input-container">
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password" required>
+      </div>
+      <button type="submit">Sign Up</button>
+    </form>
+  </div>
 </body>
 </html>

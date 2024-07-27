@@ -5,10 +5,23 @@
 }
 
 body {
-  font-family: 'Roboto', sans-serif;
-  background-color: #f5f5f5;
+  display: flex;
+  height: 100vh;
 }
 
-.left-bg {
+.left-container {
   width: 40vw;
+}
+.left-container img {
+  width: 100%;
+  height: auto;
+}
+.left-container p {
+  text-align: center;
+  margin-top: -40px;
+  color: white;
+}
+
+.right-container {
+  width: 60vw;
 }
