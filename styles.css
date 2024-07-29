@@ -5,6 +5,7 @@
 }
 
 body {
+  background-color: rgb(10, 59, 10);
   height: 100vh;
   width: 80vw;
   display: flex;
