@@ -9,28 +9,33 @@
 body {
   display: flex;
   height: 100vh;
-  width: 80vw;
-  margin: 0 10vw;
+  width: 70vw;
+  margin: 0 15vw; /* 15vw on either side */
   background-color: rgb(19, 18, 18);
 }
 
 
 .left-container {
+  height: 100%;
   width: 40%;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
   background-image: url(assests/parking-background.jpg);
   background-size: cover;
   background-position: center;
   color: white;
 }
 .logo-container {
-  width: 100%;
+  position: fixed;
+  margin-top: 20px;
   height: 100px;
+  width: 100%;
   display: flex;
+  justify-content: center;
   background-color: rgba(0, 0, 0, 0.5);
+}
+.logo-container h1 {
+  font-size: 80px;
 }
 .background-credit{
   font-size: 20px;
@@ -44,6 +49,7 @@ body {
 
 
 .right-container {
+  height: 100%;
   width: 60%;
   display: flex;
   align-items: center;
