@@ -22,9 +22,10 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url(assests/parking-background.jpg);
+  background-image: url(assets/parking-background.jpg);
   background-size: cover;
   background-position: center;
+  background-color: black; /* fallback background */
   color: white;
 }
 .logo-container {
@@ -37,7 +38,7 @@ body {
   background-color: rgba(0, 0, 0, 0.5);
 }
 .logo-container h1 {
-  font-size: 90px;
+  font-size: 4vw;
 }
 .background-credit{
   font-size: 20px;
